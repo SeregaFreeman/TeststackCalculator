@@ -52,7 +52,7 @@ namespace Calculator {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("calc1.exe")]
+        [global::System.Configuration.DefaultSettingValueAttribute("calc1")]
         public string processName {
             get {
                 return ((string)(this["processName"]));

@@ -25,8 +25,12 @@ namespace Calculator
         public void UITest()
         {
             MainWindow mainWindow = new MainWindow(_app);
-            mainWindow.EnterNumber(123456);
+            mainWindow.EnterNumber(12);
             Thread.Sleep(1000);
+            mainWindow.AddNumber(999);
+            Thread.Sleep(1000);
+            mainWindow.RememberResult();
+            mainWindow.EnterNumber(19);
         }
 
         [TearDown]

@@ -12,7 +12,7 @@
       <Value Profile="(Default)">Calculator</Value>
     </Setting>
     <Setting Name="processName" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">calc1.exe</Value>
+      <Value Profile="(Default)">calc1</Value>
     </Setting>
   </Settings>
 </SettingsFile>
