@@ -22,9 +22,10 @@ namespace Calculator
         }
 
         [Test]
-        public void UITest()
+        public void UiTest()
         {
             MainWindow mainWindow = new MainWindow(_app);
+            mainWindow.SelectMode("Standard");
             mainWindow.EnterNumber(12);
             Thread.Sleep(1000);
             mainWindow.AddNumber(999);
@@ -42,7 +43,7 @@ namespace Calculator
         public void Cleanup()
         {
             _app.Kill();
-            LoggerUtil.Log.Info("Test finished");
+            LoggerUtil.Log.Info("Test finished\n");
         }
     }
 }

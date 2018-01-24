@@ -7,10 +7,7 @@ namespace Calculator.utils
     {
         private static ILog log = LogManager.GetLogger("LOGGER");
 
-        public static ILog Log
-        {
-            get { return log; }
-        }
+        public static ILog Log => log;
 
         public static void InitLogger()
         {

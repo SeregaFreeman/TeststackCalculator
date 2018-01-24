@@ -8,7 +8,7 @@ namespace Calculator
         public static Application GetApp()
         {
             var applicationPath = Path.Combine(Settings.Default.Path, Settings.Default.EXE);
-            Application application = Application.Launch(applicationPath);
+            var application = Application.Launch(applicationPath);
             return application;
         }
     }

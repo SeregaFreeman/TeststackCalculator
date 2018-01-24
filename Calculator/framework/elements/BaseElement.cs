@@ -8,51 +8,48 @@ namespace Calculator.framework.elements
 {
     class BaseElement
     {
-        protected string name;
-        protected SearchCriteria searchCriteria;
-        protected Window window;
-        protected IUIItem uIItem;
+        protected string Name;
+        protected SearchCriteria SearchCriteria;
+        protected Window Window;
+        protected IUIItem UiItem;
 
         public BaseElement(string name, SearchCriteria searchCriteria, Window window)
         {
-            this.name = name;
-            this.searchCriteria = searchCriteria;
-            this.window = window;
+            Name = name;
+            SearchCriteria = searchCriteria;
+            Window = window;
         }
 
         public IUIItem GetElement()
         {
             IsElementPresent();
-            return uIItem;
+            return UiItem;
         }
 
         public void Click()
         {
             IsElementPresent();
-            uIItem.Click();
+            LoggerUtil.Log.Info($"Clicking element {UiItem.Name}");
+            UiItem.Click();
         }
 
         public void IsElementPresent()
         {
             bool isVisible = false;
 
-            IUIItem[] uIItems = window.GetMultiple(searchCriteria);
+            IUIItem[] uIItems = Window.GetMultiple(SearchCriteria);
             if (uIItems.Length > 0)
             {
                 foreach (var item in uIItems)
                 {
                     if (item.Visible)
                     {
-                        uIItem = item;
+                        UiItem = item;
                         isVisible = true;
-                        LoggerUtil.Log.Info("Element is visible");
+                        LoggerUtil.Log.Info($"Element {UiItem.Name} is visible");
                         break;
                     }
-                    else
-                    {
-                        isVisible = false;
-                        LoggerUtil.Log.Error("Element is not visible");
-                    }
+                    LoggerUtil.Log.Error($"Element {UiItem.Name} is not visible");
                 }
             }
             else
@@ -66,7 +63,7 @@ namespace Calculator.framework.elements
         public string GetName()
         {
             IsElementPresent();
-            return uIItem.Name;
+            return UiItem.Name;
         }
     }
 }

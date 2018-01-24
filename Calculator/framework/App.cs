@@ -4,23 +4,20 @@ namespace Calculator
 {
     class App
     {
-        private static App instance;
-        readonly Application application;
+        private static App _instance;
+        readonly Application _application;
+
         public static App GetInstance()
         {
-            if (instance == null)
-            {
-                instance = new App();
-            }
-            return instance;
+            return _instance ?? (_instance = new App());
         }
         private App()
         {
-            application = AppFactory.GetApp();
+            _application = AppFactory.GetApp();
         }
         public Application GetApplication()
         {
-            return application;
+            return _application;
         }
     }
 }
