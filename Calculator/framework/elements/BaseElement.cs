@@ -65,6 +65,7 @@ namespace Calculator.framework.elements
 
         public string GetName()
         {
+            IsElementPresent();
             return uIItem.Name;
         }
     }
