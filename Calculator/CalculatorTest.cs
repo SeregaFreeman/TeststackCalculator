@@ -31,6 +31,11 @@ namespace Calculator
             Thread.Sleep(1000);
             mainWindow.RememberResult();
             mainWindow.EnterNumber(19);
+            mainWindow.PressAdd();
+            Thread.Sleep(1000);
+            mainWindow.GetNumberFromMemory();
+            mainWindow.PressEquals();
+            Assert.True("1030".Equals(mainWindow.GetResult()));
         }
 
         [TearDown]

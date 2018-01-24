@@ -3,9 +3,9 @@ using TestStack.White.UIItems.WindowItems;
 
 namespace Calculator.framework.elements
 {
-    class Button : BaseElement
+    class TextBox : BaseElement
     {
-        public Button(Window window, SearchCriteria searchCriteria, string name) : base(name, searchCriteria, window)
+        public TextBox(Window window, SearchCriteria searchCriteria, string name) : base(name, searchCriteria, window)
         {
             //
         }

@@ -1,0 +1,77 @@
+2018-01-23 14:41:29,386  INFO  Test started
+2018-01-23 14:44:57,293  INFO  Test started
+2018-01-23 14:45:14,254  INFO  Test started
+2018-01-23 14:46:47,952  INFO  Test started
+2018-01-23 14:49:11,005  INFO  Test started
+2018-01-23 14:49:11,480  INFO  Precondition completed
+2018-01-23 14:49:58,218  INFO  Test started
+2018-01-23 14:49:58,558  INFO  Precondition completed
+2018-01-23 14:49:58,957  INFO  Test finished
+2018-01-23 15:37:29,715  INFO  Test started
+2018-01-23 15:37:30,855  INFO  Precondition completed
+2018-01-23 15:37:33,134  INFO  Test finished
+2018-01-23 16:46:29,491  INFO  Test started
+2018-01-23 16:46:30,123  INFO  Precondition completed
+2018-01-23 16:46:30,567  INFO  User need to enter: 123456
+2018-01-23 16:46:30,568  INFO  User is clicking: 1
+2018-01-23 16:46:31,036  INFO  User is clicking: 2
+2018-01-23 16:46:31,152  INFO  User is clicking: 3
+2018-01-23 16:46:31,252  INFO  User is clicking: 4
+2018-01-23 16:46:31,360  INFO  User is clicking: 5
+2018-01-23 16:46:31,488  INFO  User is clicking: 6
+2018-01-23 16:46:32,634  INFO  Test finished
+2018-01-23 17:01:48,927  INFO  Test started
+2018-01-23 17:01:49,462  INFO  Precondition completed
+2018-01-23 17:01:49,703  INFO  User needs to enter: 123456
+2018-01-23 17:01:49,703  INFO  User is clicking: 1
+2018-01-23 17:01:50,037  INFO  User is clicking: 2
+2018-01-23 17:01:50,154  INFO  User is clicking: 3
+2018-01-23 17:01:50,271  INFO  User is clicking: 4
+2018-01-23 17:01:50,380  INFO  User is clicking: 5
+2018-01-23 17:01:50,492  INFO  User is clicking: 6
+2018-01-23 17:01:51,721  INFO  User needs to enter: 6546546
+2018-01-23 17:01:51,721  INFO  User is clicking: 6
+2018-01-23 17:01:51,838  INFO  User is clicking: 5
+2018-01-23 17:01:51,937  INFO  User is clicking: 4
+2018-01-23 17:01:52,037  INFO  User is clicking: 6
+2018-01-23 17:01:52,138  INFO  User is clicking: 5
+2018-01-23 17:01:52,242  INFO  User is clicking: 4
+2018-01-23 17:01:52,371  INFO  User is clicking: 6
+2018-01-23 17:01:53,510  INFO  Test finished
+2018-01-23 17:03:01,807  INFO  Test started
+2018-01-23 17:03:02,133  INFO  Precondition completed
+2018-01-23 17:03:02,581  INFO  User needs to enter: 123456
+2018-01-23 17:03:02,581  INFO  User is clicking: 1
+2018-01-23 17:03:02,920  INFO  User is clicking: 2
+2018-01-23 17:03:03,036  INFO  User is clicking: 3
+2018-01-23 17:03:03,135  INFO  User is clicking: 4
+2018-01-23 17:03:03,236  INFO  User is clicking: 5
+2018-01-23 17:03:03,338  INFO  User is clicking: 6
+2018-01-23 17:03:04,571  INFO  User needs to enter: 6546546
+2018-01-23 17:03:04,571  INFO  User is clicking: 6
+2018-01-23 17:03:04,687  INFO  User is clicking: 5
+2018-01-23 17:03:04,787  INFO  User is clicking: 4
+2018-01-23 17:03:04,887  INFO  User is clicking: 6
+2018-01-23 17:03:04,993  INFO  User is clicking: 5
+2018-01-23 17:03:05,087  INFO  User is clicking: 4
+2018-01-23 17:03:05,187  INFO  User is clicking: 6
+2018-01-23 17:03:06,304  INFO  Test finished
+2018-01-23 18:59:22,773  INFO  Test started
+2018-01-23 18:59:23,916  INFO  Precondition completed
+2018-01-23 18:59:24,185  INFO  User needs to enter: 12
+2018-01-23 18:59:24,186  INFO  User is clicking: 1
+2018-01-23 18:59:24,892  INFO  User is clicking: 2
+2018-01-23 18:59:26,010  INFO  Test finished
+2018-01-23 19:05:50,786  INFO  Test started
+2018-01-23 19:05:51,185  INFO  Precondition completed
+2018-01-23 19:05:51,595  INFO  User needs to enter: 12
+2018-01-23 19:05:51,596  INFO  User is clicking: 1
+2018-01-23 19:05:51,925  INFO  User is clicking: 2
+2018-01-23 19:05:53,175  INFO  User needs to enter: 999
+2018-01-23 19:05:53,176  INFO  User is clicking: 9
+2018-01-23 19:05:53,276  INFO  User is clicking: 9
+2018-01-23 19:05:53,792  INFO  User is clicking: 9
+2018-01-23 19:05:55,542  INFO  User needs to enter: 19
+2018-01-23 19:05:55,543  INFO  User is clicking: 1
+2018-01-23 19:05:55,658  INFO  User is clicking: 9
+2018-01-23 19:05:55,787  INFO  Test finished

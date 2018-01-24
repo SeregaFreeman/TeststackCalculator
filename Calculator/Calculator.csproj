@@ -67,6 +67,7 @@
     <Compile Include="framework\AppFactory.cs" />
     <Compile Include="framework\elements\BaseElement.cs" />
     <Compile Include="framework\elements\Button.cs" />
+    <Compile Include="framework\elements\TextBox.cs" />
     <Compile Include="Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
