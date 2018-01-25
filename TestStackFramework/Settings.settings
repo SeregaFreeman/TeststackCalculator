@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TestStackFramework" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Path" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Windows\System32</Value>
+    </Setting>
+    <Setting Name="EXE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">calc1.exe</Value>
+    </Setting>
+    <Setting Name="MainWindowName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Calculator</Value>
+    </Setting>
+    <Setting Name="processName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">calc1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
