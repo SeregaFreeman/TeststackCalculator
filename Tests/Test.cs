@@ -24,7 +24,6 @@ namespace Tests
         {
             CalculatorSteps.EnterNumber(12);
             MainView.AppMenuBar.SelectMenu("View");
-            MenuView.ViewMenuBar.SelectMenu("Scientific");
             Thread.Sleep(1000);
         }
 

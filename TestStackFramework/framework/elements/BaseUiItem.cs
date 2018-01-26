@@ -26,7 +26,7 @@ namespace TestStackFramework.framework.elements
         {
             if (window == null)
             {
-                window = Scope.Window;
+                window = Scope.DefaultWindow;
             }
             
             try

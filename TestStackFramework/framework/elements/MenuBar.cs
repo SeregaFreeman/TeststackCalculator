@@ -14,12 +14,12 @@ namespace TestStackFramework.framework.elements
         {
             if (window == null)
             {
-                window = Scope.Window;
+                window = Scope.DefaultWindow;
             }
             return new MenuBar(Find(searchCriteria, window), itemName);
         }
 
-        public void SelectMenu(string path)
+        public void SelectMenu(params string[] path)
         {
             _uiItem.MenuItem(path).Click();
         }

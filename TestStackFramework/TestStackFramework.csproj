@@ -52,12 +52,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="framework\App.cs" />
-    <Compile Include="framework\AppFactory.cs" />
     <Compile Include="framework\elements\BaseUiItem.cs" />
     <Compile Include="framework\elements\Button.cs" />
     <Compile Include="framework\elements\MenuBar.cs" />
-    <Compile Include="framework\elements\TextBox.cs" />
+    <Compile Include="framework\elements\Label.cs" />
+    <Compile Include="framework\MyApp.cs" />
     <Compile Include="framework\Scope.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.Designer.cs">

@@ -1,5 +1,4 @@
-﻿
-using TestStack.White.UIItems.Finders;
+﻿using TestStack.White.UIItems.Finders;
 using TestStack.White.UIItems.WindowItems;
 
 namespace TestStackFramework.framework.elements
@@ -16,7 +15,7 @@ namespace TestStackFramework.framework.elements
         {
             if (window == null)
             {
-                window = Scope.Window;
+                window = Scope.DefaultWindow;
             }
             return new Button(Find(searchCriteria, window), itemName);
         }
