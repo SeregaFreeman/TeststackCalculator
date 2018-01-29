@@ -16,9 +16,9 @@ namespace Tests.steps
         }
 
         [Given(@"view type is '(.*)'")]
-        public void GivenViewTypeIs(string p0)
+        public void GivenViewTypeIs(string viewType)
         {
-            MainView.AppMenuBar.SelectMenu("View", p0);
+            MainView.AppMenuBar.SelectMenu("View", viewType);
         }
 
 
@@ -30,11 +30,11 @@ namespace Tests.steps
         }
 
         [When(@"User adds '(.*)' to '(.*)'")]
-        public void WhenUserAddsTo(int p0, int p1)
+        public void WhenUserAddsTo(int numberToAdd, int numberToWhichToAdd)
         {
-            EnterNumber(p0);
+            EnterNumber(numberToWhichToAdd);
             MainView.ButtonAdd.Click();
-            EnterNumber(p1);
+            EnterNumber(numberToAdd);
             MainView.ButtonEquals.Click();
         }
 
@@ -45,18 +45,18 @@ namespace Tests.steps
         }
 
         [When(@"User enters '(.*)' and adds it to number in memory")]
-        public void WhenUserEntersAndAddsItToNumberInMemory(int p0)
+        public void WhenUserEntersAndAddsItToNumberInMemory(int numberToAdd)
         {
-            EnterNumber(p0);
+            EnterNumber(numberToAdd);
             MainView.ButtonAdd.Click();
             MainView.ButtonGetFromMemory.Click();
             MainView.ButtonEquals.Click();
         }
 
         [Then(@"the result should be '(.*)' on the screen")]
-        public void ThenTheResultShouldBeOnTheScreen(int p0)
+        public void ThenTheResultShouldBeOnTheScreen(int expectedResult)
         {
-            Assert.AreEqual(p0, int.Parse(MainView.Resultlabel.Name));
+            Assert.AreEqual(expectedResult, int.Parse(MainView.Resultlabel.Name), "Result is not equal expected");
         }
 
         public static void EnterNumber(int number)

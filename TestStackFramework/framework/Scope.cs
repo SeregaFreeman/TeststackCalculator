@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using TestStack.White;
-using TestStack.White.UIItems.WindowItems;
+﻿using TestStack.White.UIItems.WindowItems;
 
 namespace TestStackFramework.framework
 {

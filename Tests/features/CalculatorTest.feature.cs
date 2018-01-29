@@ -17,8 +17,7 @@ namespace Tests.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.2.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("CalculatorTest", Description="\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
-        "f two numbers", SourceFile="features\\CalculatorTest.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("CalculatorTest", SourceFile="features\\CalculatorTest.feature", SourceLine=0)]
     public partial class CalculatorTestFeature
     {
         
@@ -31,8 +30,7 @@ namespace Tests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CalculatorTest", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
-                    "f two numbers", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "CalculatorTest", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -72,21 +70,21 @@ namespace Tests.Features
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers, remember result, then add another number to number in memory", @__tags);
-#line 7
+#line 4
 this.ScenarioSetup(scenarioInfo);
-#line 8
+#line 5
  testRunner.Given("All old instances of app are closed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
+#line 6
      testRunner.And("new instance is open", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 10
+#line 7
   testRunner.And(string.Format("view type is \'{0}\'", viewType), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 11
+#line 8
  testRunner.When("User adds \'999\' to \'12\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 12
+#line 9
  testRunner.And("Adds result to memory", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 13
+#line 10
  testRunner.And("User enters \'19\' and adds it to number in memory", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line 14
+#line 11
  testRunner.Then("the result should be \'1030\' on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -94,20 +92,20 @@ this.ScenarioSetup(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers, remember result, then add another number to number in memory, St" +
             "andard", new string[] {
-                "mytag"}, SourceLine=17)]
+                "mytag"}, SourceLine=14)]
         public virtual void AddTwoNumbersRememberResultThenAddAnotherNumberToNumberInMemory_Standard()
         {
-#line 7
+#line 4
 this.AddTwoNumbersRememberResultThenAddAnotherNumberToNumberInMemory("Standard", ((string[])(null)));
 #line hidden
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Add two numbers, remember result, then add another number to number in memory, Sc" +
             "ientific", new string[] {
-                "mytag"}, SourceLine=17)]
+                "mytag"}, SourceLine=14)]
         public virtual void AddTwoNumbersRememberResultThenAddAnotherNumberToNumberInMemory_Scientific()
         {
-#line 7
+#line 4
 this.AddTwoNumbersRememberResultThenAddAnotherNumberToNumberInMemory("Scientific", ((string[])(null)));
 #line hidden
         }
